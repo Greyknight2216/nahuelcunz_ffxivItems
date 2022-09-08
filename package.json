@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@xivapi/js": "^0.4.1"
+  }
+}

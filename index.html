@@ -6,17 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-    <nav>
-        <h1> Vacaciones </h1>
-        <p> perdon por la pobre alma que tenga que ver esto pero es para el desafio </p>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <h1 class="navbar-brand"> FFXIV Item Selector</h1>
+            <p class="nav-item"> search bar </p>
+        </div>
+
     </nav>
 
-    
+    <main class="container">
+
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" id="item"> </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="stats"></li>
+                <li class="list-group-item" id="price"></li>
+                <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+    </main>
 
 </body>
-    <script src="./assets/js/sorry.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./assets/js/api.js"></script>
+<script src="./assets/js/item.js"></script>
+<script src="./assets/js/function.js"></script>
+<script src="./assets/js/index.js"></script>
+
 </html>
