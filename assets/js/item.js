@@ -1,6 +1,7 @@
 class Item{
-    constructor(name, stat, price) {
+    constructor(name, legend, stat, price) {
         this.name = name.toUpperCase();
+        this.legend = legend;
         this.stat = stat;
         this.price = price;
     }
