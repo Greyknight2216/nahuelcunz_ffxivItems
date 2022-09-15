@@ -11,6 +11,20 @@ body {
   background-color: #371391;
 }
 
+.chocoboMode {
+  background-color: #E6D901;
+}
+
+#btnToggler {
+  background-color: #303030;
+  color: white;
+  border: 0px;
+}
+
+#btnToggler:hover {
+  color: #E6D901;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
