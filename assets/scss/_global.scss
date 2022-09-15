@@ -10,3 +10,17 @@ body{
     margin: 0px 0px 0px 0px;
     background-color: $secondaryColor;
 }
+
+.chocoboMode{
+    background-color: #E6D901;
+}
+
+#btnToggler{
+    background-color: $primaryColor;
+    color: white;
+    border: 0px;
+}
+
+#btnToggler:hover{
+    color:#E6D901;
+}
