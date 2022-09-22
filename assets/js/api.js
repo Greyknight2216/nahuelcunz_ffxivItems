@@ -21,3 +21,4 @@ fetch(`https://xivapi.com/Item/${itemID}`)
     } 
    ) 
 
+let hello = console.log('hello')
