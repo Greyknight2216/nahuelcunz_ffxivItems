@@ -25,7 +25,7 @@ const tataruStock = [
     }
 ]
 
-let insertCategory = prompt("Category").toLowerCase()
+//let insertCategory = prompt("Category").toLowerCase()
 const searchResult = tataruStock.find(item => item.category === insertCategory);
 console.log(searchResult);
 

@@ -48,3 +48,12 @@ nav {
   font-family: Quicksand;
   color: white;
 }
+
+.searchBar {
+  margin-right: 20px;
+}
+
+.fa-magnifying-glass {
+  padding: 10px 20px;
+  color: white;
+}
